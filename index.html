@@ -1,23 +1,143 @@
 <!DOCTYPE html>
 <html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<!-- HTML Codes by Quackit.com -->
-<title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal webpage of Jérémi Montornès, Banque de France.">
+    <title>[Jérémi Montornès] - Banque de France</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
-h1{font-family:Arial, sans-serif;color:#000000;background-color:#ffffff;}
-p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;}
-</style>
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #0073e6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        h1, h2 {
+            color: #0073e6;
+        }
+
+        .bio {
+            margin: 20px 0;
+        }
+
+        .bio img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+
+        .section {
+            margin: 40px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body>
-<h1>About me</h1>
-<p>hello! my name is Jérémi Montornès</p>
-<p></p>
-<p>i work as an applied economist at banque de france </p>
-<p></p>
 
-<p></p>
+<body>
+
+
+
+    <nav>
+        <a href="#bio">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#research">Research Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="bio" class="bio">
+            <img src="your-photo.jpg" alt="Your Name" width="150"> <!-- Add your photo -->
+            <h2>About Me</h2>
+            <p>Hello! I am Jérémi Montornès, an economist with a focus on [Your Specialization]. My research interests include [Research Interest 1], [Research Interest 2], and [Research Interest 3]. I am currently a [Your Position] at [Your Institution].</p>
+        </section>
+
+        <section id="publications" class="section">
+            <h2>Publications</h2>
+            <ul>
+                <li><strong>Title of Paper 1</strong> - Journal Name, Year. <a href="link-to-paper-1.pdf">[PDF]</a></li>
+                <li><strong>Title of Paper 2</strong> - Journal Name, Year. <a href="link-to-paper-2.pdf">[PDF]</a></li>
+                <!-- Add more publications as needed -->
+            </ul>
+        </section>
+
+        <section id="research" class="section">
+            <h2>Research Projects</h2>
+            <ul>
+                <li><strong>Project Title 1</strong> - Brief description of the project and its goals.</li>
+                <li><strong>Project Title 2</strong> - Brief description of the project and its goals.</li>
+                <!-- Add more research projects as needed -->
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>You can reach me at <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>Follow me on:
+                <a href="https://scholar.google.com/citations?user=your-google-scholar-id" target="_blank">Google Scholar</a>,
+                <a href="https://www.researchgate.net/profile/Your-Name" target="_blank">ResearchGate</a>,
+                <a href="https://twitter.com/your-twitter-handle" target="_blank">Twitter</a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        <p>Website built with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+    </footer>
+
 </body>
+
 </html>
